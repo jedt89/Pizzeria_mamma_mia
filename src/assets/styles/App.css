@@ -104,7 +104,7 @@ h3 {
 }
 
 .ant-card-actions {
-  border-color: aliceblue;
+  border-color: #e7e7e7 !important;
 }
 
 .button-card:hover {
