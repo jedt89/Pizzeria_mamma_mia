@@ -1,19 +1,26 @@
-# Pzzería mamma mía
+# Pizzería mamma mía 
 
-Applicación web para la venta de pizzas (hito 1)
+➡️ Applicación web para la venta de pizzas (hito 1)
 
-## Deploy 🛜
+
+# Deploy 🛜
 ➡️ https://jedt89.github.io/Pizzeria_mamma_mia/
 
-## Tecnologías utilizadas 
+
+# Tecnologías utilizadas 
 
 🚀 React: Librería de construcción para interfaces de usuario.
+
 🚀 Vite: Motor de creación de aplicaciones.
+
 🚀 Fontawesome: Librería de íconos.
-🚀 ANT-DESIGN: Librería de componentes para react.
+
+🚀 Ant-Design: Librería de componentes para react.
+
 🚀 gh-pages: Motor de despliegue de aplicación en GitHub Pages.
 
-### Instalación 🔧
+
+# Instalación
 
 1.- Clona el repositorio:
 ➡️ git clone https://github.com/jedt89/Pizzeria_mamma_mia.git
