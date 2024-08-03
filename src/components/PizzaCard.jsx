@@ -4,6 +4,7 @@ const { Meta } = Card;
 import { Typography } from 'antd';
 const { Title, Text } = Typography;
 import '../assets/styles/App.css';
+import pizzaIcon from '../assets/img/pizzaIcon.png';
 
 const PizzaCard = ({ name, price, ingredients, img }) => {
   const getIngredients = () => {
@@ -12,7 +13,7 @@ const PizzaCard = ({ name, price, ingredients, img }) => {
       const template = (
         <Flex key={index}>
           <img
-            src='src/assets/img/pizza-icon.png'
+            src={pizzaIcon}
             style={{ width: '20px', height: '15px', marginRight: '10px' }}
           />
           <Text>{ingredient}</Text>

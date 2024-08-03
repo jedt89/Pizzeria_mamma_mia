@@ -10,6 +10,7 @@ import {
 } from '@ant-design/icons';
 import Title from 'antd/es/typography/Title';
 import '../assets/styles/App.css';
+import brand from '../assets/img/brand.png'
 
 const Navbar = ({ token, total }) => {
   const items = [
@@ -69,7 +70,7 @@ const Navbar = ({ token, total }) => {
     <Flex wrap className='nav-container' align='center' justify='space-between'>
       <div>
         <a href=''>
-          <img src='/src/assets/img/brand.png' style={{ width: '80px' }} />
+          <img src={brand} style={{ width: '80px' }} />
         </a>
       </div>
       <Title className='nav-title'>Pizzería Mamma mía</Title>
