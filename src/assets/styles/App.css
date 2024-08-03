@@ -20,9 +20,8 @@ h1 {
 
 h3 {
   text-align: center;
-  color: green !important;
-  margin: 0px !important;
-
+  color: limegreen !important;
+  margin: 15px 0px 0px 0px !important;
 }
 
 /* Utils */
@@ -88,16 +87,24 @@ h3 {
   color: orange !important;
 }
 
+.card {
+  width: 100%;
+  max-width: 350px;
+}
+
 .ant-card-meta-title {
-  color: green !important;
+  color: limegreen !important;
   border-radius: 5px;
   text-align: center;
-  border: 1px solid green;
   background-color: rgba(0, 128, 0, 0.1);
 }
 
 .ant-card-meta-title:hover {
   transition: all 0.2s linear;
+}
+
+.ant-card-actions {
+  border-color: aliceblue;
 }
 
 .button-card:hover {

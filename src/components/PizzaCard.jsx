@@ -1,4 +1,8 @@
-import { ShoppingCartOutlined, SettingOutlined } from '@ant-design/icons';
+import {
+  ShoppingCartOutlined,
+  SettingOutlined,
+  CheckCircleTwoTone
+} from '@ant-design/icons';
 import { Card, Flex, Space } from 'antd';
 const { Meta } = Card;
 import { Typography } from 'antd';
@@ -11,12 +15,15 @@ const PizzaCard = ({ name, price, ingredients, img }) => {
     const container = [];
     ingredients.map((ingredient, index) => {
       const template = (
-        <Flex key={index}>
-          <img
-            src={pizzaIcon}
-            style={{ width: '20px', height: '15px', marginRight: '10px' }}
-          />
-          <Text>{ingredient}</Text>
+        <Flex key={index} justify='space-between'>
+          <Flex>
+            <img
+              src={pizzaIcon}
+              style={{ width: '20px', height: '15px', marginRight: '10px' }}
+            />
+            <Text>{ingredient}</Text>
+          </Flex>
+          <CheckCircleTwoTone twoToneColor={'limegreen'} />
         </Flex>
       );
 
@@ -32,8 +39,8 @@ const PizzaCard = ({ name, price, ingredients, img }) => {
     <>
       <Space align='center' direction='horizontal'>
         <Card
+        className='card'
           style={{
-            width: 320,
             alignItems: 'center'
           }}
           cover={<img alt={name} src={img} />}
@@ -57,7 +64,7 @@ const PizzaCard = ({ name, price, ingredients, img }) => {
             title={name}
             description={getIngredients()}
           />
-          <Title level={3}>Precio: ${price.toLocaleString()}</Title>
+          <Title level={3}>Precio: ${price.toLocaleString('es-CL')}</Title>
         </Card>
       </Space>
     </>

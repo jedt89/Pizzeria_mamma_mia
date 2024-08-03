@@ -13,8 +13,6 @@
 
 🚀 Vite: Motor de creación de aplicaciones.
 
-🚀 Fontawesome: Librería de íconos.
-
 🚀 Ant-Design: Librería de componentes para react.
 
 🚀 gh-pages: Motor de despliegue de aplicación en GitHub Pages.
