@@ -2,6 +2,8 @@
   font-family: "Montserrat", sans-serif !important;
   font-optical-sizing: auto;
   font-style: normal;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 
 body {
@@ -84,8 +86,6 @@ h3 {
   margin: 0px;
   padding: 0px;
   color: orange !important;
-
-
 }
 
 .ant-card-meta-title {
@@ -98,9 +98,11 @@ h3 {
 
 .ant-card-meta-title:hover {
   transition: all 0.2s linear;
-
 }
 
+.button-card:hover {
+  color: green !important;
+}
 .footer {
   background: #001e1d;
   padding: 1rem;

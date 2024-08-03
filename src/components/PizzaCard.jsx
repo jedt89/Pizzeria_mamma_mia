@@ -33,7 +33,7 @@ const PizzaCard = ({ name, price, ingredients, img }) => {
       <Space align='center' direction='horizontal'>
         <Card
           style={{
-            width: 300,
+            width: 320,
             alignItems: 'center'
           }}
           cover={<img alt={name} src={img} />}
@@ -42,11 +42,13 @@ const PizzaCard = ({ name, price, ingredients, img }) => {
               style={{ fontSize: '24px', color: 'orange' }}
               title='Editar ingredientes'
               key='edit'
+              className='button-card'
             />,
             <ShoppingCartOutlined
               style={{ fontSize: '24px', color: 'orange' }}
               title='Añadir al Carrito'
               key='Añadir al Carrito'
+              className='button-card'
             />
           ]}
         >

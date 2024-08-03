@@ -78,7 +78,7 @@ const Navbar = ({ token, total }) => {
         <Button className='navbar-button'>
           <ShoppingCartOutlined style={{ fontSize: '20px' }} />
           <Flex align='center' style={{ fontSize: '14px', margin: '0px' }}>
-            ${total.toLocaleString()}
+            ${total.toLocaleString('es')}
           </Flex>
         </Button>
         <Dropdown
