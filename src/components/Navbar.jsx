@@ -17,7 +17,7 @@ const Navbar = ({ token, total }) => {
     {
       key: 'home',
       label: (
-        <a target='_blank' href=''>
+        <a href=''>
           Inicio
         </a>
       ),
@@ -27,7 +27,7 @@ const Navbar = ({ token, total }) => {
     {
       key: 'login',
       label: (
-        <span target='_blank' href=''>
+        <span href=''>
           Login
         </span>
       ),
@@ -37,7 +37,7 @@ const Navbar = ({ token, total }) => {
     {
       key: 'register',
       label: (
-        <span target='_blank' href=''>
+        <span href=''>
           Register
         </span>
       ),
@@ -47,7 +47,7 @@ const Navbar = ({ token, total }) => {
     {
       key: 'profile',
       label: (
-        <span target='_blank' href=''>
+        <span href=''>
           Perfil
         </span>
       ),
@@ -57,7 +57,7 @@ const Navbar = ({ token, total }) => {
     {
       key: 'logout',
       label: (
-        <span target='_blank' href=''>
+        <span href=''>
           Logout
         </span>
       ),
